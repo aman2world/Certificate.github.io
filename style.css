@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .certificate-container {
+    width: 700px;
+    margin: 50px auto;
+    background-color: white;
+    border: 2px solid black; /* Border line for the certificate */
+    padding: 20px;
+    position: relative;
+  }
+  .header {
+    margin-bottom: 20px;
+  }
+  .headers{
+    float: right;
+    margin-right: 60px;
+  }
+
+  .company-logo-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+  }
+  .company-logo-right{
+    position: absolute;
+    top: 10px;
+    width: 70px;
+    text-align: right;
+  }
+  .candidate-name {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .signatures {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .signature-left,
+  .signature-right {
+    width: 40%;
+    text-align: center;
+  }
+  .signature-left img,
+  .signature-right img {
+    width: 120px; /* Adjust size as needed */
+  }
+  .signature-left {
+    margin-right: auto;
+  }
+  .signature-right {
+    margin-left: auto;
+  }
+
+  .text{
+    text-align: center;
+  }
+
+  .para{
+    text-align: center;
+  }
+
+  .sign{
+    line-height: 20px;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .bottom{
+    color: rgb(74, 199, 223);
+    margin-left: 25px;
+  }
